@@ -1,0 +1,72 @@
+ html,
+ body {
+     position: relative;
+     height: 100%;
+ }
+
+ body {
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color: #000;
+     margin: 0;
+     padding: 0;
+     background-image: url(../images/bg2.jpg)
+ }
+
+/* 슬라이드 전체크기 조절 */
+ .swiper {
+     width: 1000px;
+    height: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ /* slide img 크기 */
+ .swiper-slide img {
+     display: block;
+     width: 640px;
+     height: 640px;
+     overflow: hidden;
+ }
+ 
+ /* 양쪽버튼 설정 */
+ .swiper-button-next,.swiper-button-prev {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset,50%);
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a0a0a4f
+}
+.swiper-button-next:hover{
+    color: #fff;
+    font-weight:bolder;
+}
+.swiper-button-prev:hover{
+    color: #fff; 
+    font-weight:bolder;
+}
+
+/* 하단 원형바 설정 */
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background-color: #fff;
+}
+.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,130px);
+    top: var(--swiper-pagination-top,auto);
+    left: 0;
+    width: 100%
+}

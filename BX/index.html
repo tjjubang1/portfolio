@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>wave hall BX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="./img/favinon.png" type="image/x-icon">
+  <!-- Demo styles -->
+  
+</head>
+
+<body>
+
+  <div class="logo">
+    <h1><img src="./img/logo_white 가로타입.png" alt="logo"></h1>
+  </div>
+  <!-- Swiper -->
+
+  <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./img/BX_cover.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/BX1.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX2.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX3.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX4.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX5.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX6.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX7.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX8.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX9.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX10.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX11.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/BX12.jpg" loading="lazy" />
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/jquery-3.7.1.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      lazy: true,
+      autoplay: true,
+      infinite: true,
+      loop:true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
