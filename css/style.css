@@ -614,7 +614,7 @@ a.active {
 .skill-box > .skills-circle > ul > li {
   width: 150px;
   height: 150px;/*원크기조정가능*/
-  background-color: #bdbdbd;/*1.bar 채워지지않은 비워있는 color*/
+  background-color: #60606e;/*1.bar 채워지지않은 비워있는 color*/
   border-radius: 50%;
   position: relative;
   display: inline-block;
@@ -854,11 +854,10 @@ a.active {
 ==================================================*/
 
 #contact {
-    padding: 30px 0;
+    padding-bottom:70px;
     background: #f4f4f4;
 }
 #contact p{
-	
 	font-weight:700;
 }
 #contact-form input,
